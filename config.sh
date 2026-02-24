@@ -36,7 +36,7 @@ JOBS="${JOBS:-$(nproc --all)}"
 ################################################################################
 # Format: <host>:<owner/repo>@<ref>
 KERNEL_REPO="github.com:ESK-Project/android12-5.10-gki@main"
-ANYKERNEL_REPO="github.com:ESK-Project/AnyKernel3@gki"
+ANYKERNEL_REPO="github.com:ESK-Project/AnyKernel3@android12-5.10"
 BUILD_TOOLS_REPO="android.googlesource.com:kernel/prebuilts/build-tools@main-kernel-build-2024"
 MKBOOTIMG_REPO="android.googlesource.com:platform/system/tools/mkbootimg@main-kernel-build-2024"
 SUSFS_REPO="gitlab.com:simonpunk/susfs4ksu@gki-android12-5.10"
