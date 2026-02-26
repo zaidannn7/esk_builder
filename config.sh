@@ -16,7 +16,7 @@ KBUILD_BUILD_USER="builder"
 KBUILD_BUILD_HOST="esk"
 
 # Used for timestamps in logs
-TIMEZONE="Asia/Ho_Chi_Minh"
+TIMEZONE="Asia/Jakarta"
 
 # Where release artifacts are published
 RELEASE_REPO="ESK-Project/gki-releases"
@@ -26,7 +26,7 @@ RELEASE_BRANCH="main"
 # Build options
 ################################################################################
 # Clang LTO mode: thin | full
-CLANG_LTO="thin"
+CLANG_LTO="full"
 
 # Parallel build jobs (override: JOBS=16 ./build.sh)
 JOBS="${JOBS:-$(nproc --all)}"
@@ -35,7 +35,7 @@ JOBS="${JOBS:-$(nproc --all)}"
 # Source
 ################################################################################
 # Format: <host>:<owner/repo>@<ref>
-KERNEL_REPO="github.com:ESK-Project/android12-5.10-gki@main"
+KERNEL_REPO="github.com:zaidannn7/android12-5.10-gki@main"
 ANYKERNEL_REPO="github.com:ESK-Project/AnyKernel3@android12-5.10"
 BUILD_TOOLS_REPO="android.googlesource.com:kernel/prebuilts/build-tools@main-kernel-build-2024"
 MKBOOTIMG_REPO="android.googlesource.com:platform/system/tools/mkbootimg@main-kernel-build-2024"
