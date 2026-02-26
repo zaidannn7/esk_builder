@@ -26,7 +26,7 @@ RELEASE_BRANCH="main"
 # Build options
 ################################################################################
 # Clang LTO mode: thin | full
-CLANG_LTO="full"
+CLANG_LTO="thin"
 
 # Parallel build jobs (override: JOBS=16 ./build.sh)
 JOBS="${JOBS:-$(nproc --all)}"
