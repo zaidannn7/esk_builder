@@ -12,8 +12,8 @@ KERNEL_NAME="ESK"
 KERNEL_DEFCONFIG="gki_defconfig"
 
 # Kbuild identity
-KBUILD_BUILD_USER="viral"
-KBUILD_BUILD_HOST="esk"
+KBUILD_BUILD_USER="zaidan"
+KBUILD_BUILD_HOST="eskmod"
 
 # Used for timestamps in logs
 TIMEZONE="Asia/Jakarta"
@@ -35,7 +35,7 @@ JOBS="${JOBS:-$(nproc --all)}"
 # Source
 ################################################################################
 # Format: <host>:<owner/repo>@<ref>
-KERNEL_REPO="github.com:ramabondanp/android_kernel_common-5.10@android12-5.10"
+KERNEL_REPO="github.com:zaidannn7/android12-5.10-gki@main"
 ANYKERNEL_REPO="github.com:ESK-Project/AnyKernel3@android12-5.10"
 BUILD_TOOLS_REPO="android.googlesource.com:kernel/prebuilts/build-tools@main-kernel-build-2024"
 MKBOOTIMG_REPO="android.googlesource.com:platform/system/tools/mkbootimg@main-kernel-build-2024"
